@@ -1,0 +1,26 @@
+{
+  "jenis_dokumen": "MODUL_AJAR",
+  "struktur_visual": {
+    "judul_dokumen": {
+      "format": "Tengah, Bold. MODUL AJAR, BAB [NOMOR] : [JUDUL]"
+    },
+    "informasi_umum": {
+      "format": "Heading utama dengan shading/highlight warna. Terdiri dari A sampai F."
+    },
+    "komponen_inti": {
+      "format": "Heading utama dengan shading/highlight warna. Terdiri dari A sampai G. Kegiatan Pembelajaran dibagi per Pertemuan."
+    },
+    "asesmen": {
+      "tabel_kisi_kisi": {
+        "kolom": ["Capaian Pembelajaran (CP)", "Alur Tujuan Pembelajaran (ATP)", "Indikator Soal", "Nomor Soal / Bentuk Soal"],
+        "border": "Solid"
+      },
+      "tabel_rubrik": {
+        "kolom": ["No", "Aspek Penilaian", "Skor (0, 1, 2, 3)"]
+      }
+    },
+    "lampiran": {
+      "format": "Heading utama dengan shading/highlight warna. Terdiri dari Lampiran 1 sampai 4."
+    }
+  }
+}

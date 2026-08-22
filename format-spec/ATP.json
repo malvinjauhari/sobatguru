@@ -1,0 +1,31 @@
+{
+  "jenis_dokumen": "ATP",
+  "struktur_visual": {
+    "judul_dokumen": {
+      "format": "Tengah, Bold. Baris 1: ATP FASE [FASE] KELAS [KELAS]. Baris 2: MATA PELAJARAN [MATA_PELAJARAN]."
+    },
+    "hierarki_heading": {
+      "level_1": "Huruf Kapital, Bold, didahului abjad (A, B, C, dst.). Contoh: A. INFORMASI"
+    },
+    "bagian_a_informasi": {
+      "format": "Teks biasa. Baris 1: PENYUSUN : [NAMA]. Baris 2: SEKOLAH : [NAMA] MATA PELAJARAN : [MAPEL]. Baris 3: FASE : [FASE] KELAS : [KELAS]."
+    },
+    "bagian_b_rasional": {
+      "format": "Paragraf narasi teks biasa di bawah heading B. RASIONAL."
+    },
+    "bagian_c_tabel": {
+      "kolom": ["TUJUAN PEMBELAJARAN", "KONSEP INTI", "GLOSARIUM"],
+      "border": "Solid border (all edges)"
+    },
+    "bagian_d_profil_pancasila": {
+      "format": "Teks pembuka, diikuti numbering (1), (2), dst. Setiap poin diawali nama dimensi bold, diikuti titik, lalu uraian."
+    },
+    "bagian_e_jumlah_jam": {
+      "format": "Teks biasa di bawah heading: [ANGKA] JP"
+    },
+    "bagian_f_tabel": {
+      "kolom": ["TUJUAN PEMBELAJARAN", "INDIKATOR PENILAIAN"],
+      "border": "Solid border. Kolom kanan berisi bullet points."
+    }
+  }
+}

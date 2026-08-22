@@ -1,0 +1,23 @@
+{
+  "jenis_dokumen": "RPP",
+  "sections_wajib": [
+    "A. IDENTITAS MODUL AJAR",
+    "B. CAPAIAN PEMBELAJARAN (CP)",
+    "C. TUJUAN PEMBELAJARAN (TP)",
+    "D. MATERI PEMBELAJARAN",
+    "E. METODE & MODEL PEMBELAJARAN",
+    "F. LANGKAH-LANGKAH PEMBELAJARAN",
+    "G. PENILAIAN / ASESMEN",
+    "Pengesahan"
+  ],
+  "aturan_konten": {
+    "identitas": "Berdasarkan data guru, NIP, sekolah, kelas, mapel, semester, alokasi waktu.",
+    "capaian_pembelajaran": "Paragraf deskriptif mengenai target hasil belajar.",
+    "tujuan_pembelajaran": "Paragraf deskriptif mengenai target hasil belajar.",
+    "materi_pembelajaran": "Bullet points topik materi spesifik.",
+    "metode_model": "Bullet points metode dan model pedagogik (misal: Discovery Learning).",
+    "langkah_pembelajaran": "Rincian sintaks kegiatan (termasuk durasi menit) di Pendahuluan, Inti (sintaks model), dan Penutup.",
+    "asesmen": "Penjabaran instrumen Diagnostik, Formatif, dan Sumatif yang disesuaikan dengan topik.",
+    "pengesahan": "Tempat, tanggal, nama, dan NIP Kepala Sekolah dan Guru."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "jenis_dokumen": "PROSEM",
+  "struktur_visual": {
+    "judul_dokumen": {
+      "format": "Tengah, Bold. PROGRAM SEMESTER ( PROSEM )."
+    },
+    "bagian_identitas": {
+      "format": "Teks biasa. SATUAN PENDIDIKAN, MATA PELAJARAN, KELAS / FASE, SEMESTER, TAHUN PENYUSUNAN."
+    },
+    "bagian_tabel_jadwal": {
+      "kolom": [
+        "No",
+        "No. TP",
+        "TUJUAN PEMBELAJARAN (TP)",
+        "Jml Jam",
+        "Bulan 1", "Bulan 2", "Bulan 3", "Bulan 4", "Bulan 5", "Bulan 6",
+        "Ket"
+      ],
+      "sub_kolom_bulan": "Setiap bulan dibagi menjadi 5 kolom kecil untuk minggu (1, 2, 3, 4, 5).",
+      "border": "Solid border (all edges)",
+      "shading": "Kolom header tabel dan sel-sel yang mewakili pelaksanaan/alokasi waktu pada minggu tertentu diarsir/diwarnai (shading)."
+    },
+    "bagian_pengesahan": {
+      "format": "Dua kolom di bagian bawah tanpa border. Kiri: Mengetahui, Kepala Sekolah. Kanan: Tempat, Tanggal, Guru Mata Pelajaran. Disertai nama dan NIP."
+    }
+  }
+}

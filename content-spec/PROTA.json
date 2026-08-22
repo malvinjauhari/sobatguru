@@ -1,0 +1,16 @@
+{
+  "jenis_dokumen": "PROTA",
+  "sections_wajib": [
+    "Identitas Dokumen",
+    "Capaian Pembelajaran (Narasi Umum dan per Kelas)",
+    "Tabel Elemen CP",
+    "Tabel Jadwal / Distribusi Waktu Tahunan",
+    "Bagian Pengesahan (Tanda Tangan)"
+  ],
+  "aturan_konten": {
+    "narasi_cp": "Menjabarkan paragraf umum Capaian Pembelajaran fase bersangkutan, lalu di-breakdown per kelas (contoh Kelas XI dan XII).",
+    "tabel_elemen_cp": "Memuat elemen-elemen CP seperti Pemahaman Konsep dan Keterampilan Proses beserta deskripsi terperinci.",
+    "tabel_jadwal": "Membagi Tujuan Pembelajaran (TP) ke dalam Semester 1 dan Semester 2. Setiap baris di tabel ini mewakili 1 BAB / MATERI. Kolom Tujuan Pembelajaran harus berisi list seluruh TP yang masuk dalam materi tersebut (grouping many-to-one). Terdapat kolom Alokasi Waktu (JP) per materi.",
+    "pengesahan": "Membutuhkan data pendukung administratif: Nama Kepala Sekolah, NIP Kepala Sekolah, Guru Mata Pelajaran, NIP Guru, Tempat & Tanggal Penandatanganan."
+  }
+}

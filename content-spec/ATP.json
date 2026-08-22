@@ -1,0 +1,18 @@
+{
+  "jenis_dokumen": "ATP",
+  "sections_wajib": [
+    "A. INFORMASI",
+    "B. RASIONAL",
+    "C. ALUR DAN TUJUAN PEMBELAJARAN",
+    "D. PROFIL PELAJAR PANCASILA",
+    "E. JUMLAH JAM",
+    "F. INDIKATOR PENILAIAN"
+  ],
+  "aturan_konten": {
+    "rasional": "Narasi 1 paragraf tentang alasan/urgensi pembelajaran mata pelajaran tersebut.",
+    "alur_dan_tp": "Memuat list Tujuan Pembelajaran. Tiap TP harus diekstrak 'Konsep Inti' (1-2 kata kunci) dan 'Glosarium' (definisi lengkap dari konsep inti). Sel tabel dilarang kosong.",
+    "profil_pancasila": "Wajib 5 poin: (1) Iman dan Taqwa..., (2) Berkebhinekaan Global, (3) Bergotong Royong, (4) Mandiri, (5) Bernalar Kritis. Tiap poin harus punya kalimat uraian bagaimana dimensi ini ditumbuhkan melalui mapel tersebut.",
+    "jumlah_jam": "Alokasi total Jam Pelajaran (JP).",
+    "indikator_penilaian": "Tiap Tujuan Pembelajaran (di tabel C) harus di-breakdown menjadi minimal 2-4 Indikator Penilaian yang spesifik dan terukur."
+  }
+}

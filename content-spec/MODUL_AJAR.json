@@ -1,0 +1,17 @@
+{
+  "jenis_dokumen": "MODUL_AJAR",
+  "sections_wajib": [
+    "INFORMASI UMUM",
+    "KOMPONEN INTI",
+    "LAMPIRAN-LAMPIRAN"
+  ],
+  "aturan_konten": {
+    "identitas": "Berdasarkan profil sekolah, guru, kelas, mapel, tahun.",
+    "kompetensi_awal": "Paragraf ringkasan materi/bab.",
+    "profil_pancasila": "Kata kunci nilai-nilai yang relevan dengan bab.",
+    "kegiatan_pembelajaran": "Instruksi per pertemuan (Pendahuluan, Inti, Penutup).",
+    "asesmen": "Tabel kisi-kisi soal dan rubrik penilaian (statis/dinamis).",
+    "pengayaan_remedial": "Link literasi dan tugas khusus.",
+    "lampiran": "LKPD, Glosarium, Daftar Pustaka."
+  }
+}

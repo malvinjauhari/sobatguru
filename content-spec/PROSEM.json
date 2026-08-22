@@ -1,0 +1,13 @@
+{
+  "jenis_dokumen": "PROSEM",
+  "sections_wajib": [
+    "Identitas Dokumen",
+    "Tabel Program Semester",
+    "Bagian Pengesahan"
+  ],
+  "aturan_konten": {
+    "identitas": "Memerlukan pilihan Semester (1/Ganjil atau 2/Genap) untuk penyesuaian daftar bulan.",
+    "tabel_jadwal": "Setiap baris mewakili 1 Tujuan Pembelajaran (TP). Kolom 'No. TP' menggunakan kode terstruktur (contoh: 11.1.1). Terdapat Jml Jam (Alokasi JP) per TP. Estimasi waktu disebar ke kolom bulan/minggu yang tepat. Kolom bulan bergantung pada Semester (Smt 1: Juli-Desember; Smt 2: Januari-Juni).",
+    "pengesahan": "Membutuhkan Nama Kepala Sekolah, NIP Kepala Sekolah, Guru Mata Pelajaran, NIP Guru, Tempat & Tanggal Penandatanganan."
+  }
+}

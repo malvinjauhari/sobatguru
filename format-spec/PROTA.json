@@ -1,0 +1,26 @@
+{
+  "jenis_dokumen": "PROTA",
+  "struktur_visual": {
+    "judul_dokumen": {
+      "format": "Tengah, Bold, Highlight/Shading Merah Gelap, Teks Putih. Baris 1: PROGRAM TAHUNAN ( PROTA ). Baris 2: MATA PELAJARAN [MAPEL]."
+    },
+    "bagian_identitas": {
+      "format": "Teks biasa tebal pada label, format list tabular: SATUAN PENDIDIKAN, MATA PELAJARAN, KELAS / FASE, TAHUN PENYUSUNAN."
+    },
+    "bagian_narasi_cp": {
+      "format": "Heading: CAPAIAN PEMBELAJARAN [MAPEL] FASE [FASE] (Bold). Diikuti paragraf narasi umum dan penjabaran kelas."
+    },
+    "bagian_tabel_elemen_cp": {
+      "kolom": ["Elemen Pemahaman Konsep Sejarah", "Deskripsi"],
+      "border": "Solid border (all edges)"
+    },
+    "bagian_tabel_jadwal": {
+      "kolom": ["No", "TUJUAN PEMBELAJARAN (TP)", "MATERI", "Alokasi Waktu"],
+      "border": "Solid border",
+      "shading": "Baris header kolom diberi warna krem/peach muda (F4B084 atau sejenisnya). Baris pemisah 'SEMESTER 1' dan 'SEMESTER 2' di-merge (colspan 4) dan diberi warna latar biru muda/cyan terang (D9E1F2)."
+    },
+    "bagian_pengesahan": {
+      "format": "Dua kolom tanpa border. Kiri: Mengetahui, Kepala Sekolah. Kanan: Tempat, Tanggal, Guru Mata Pelajaran. Terdapat nama dan NIP di bagian bawah tiap penandatangan dengan garis bawah atau titik-titik."
+    }
+  }
+}

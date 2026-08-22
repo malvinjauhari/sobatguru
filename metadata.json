@@ -1,0 +1,6 @@
+{
+  "name": "Sobat Guru",
+  "description": "Generator dokumen administrasi guru otomatis bertenaga AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

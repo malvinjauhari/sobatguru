@@ -1,0 +1,26 @@
+{
+  "jenis_dokumen": "RPP",
+  "struktur_visual": {
+    "judul_dokumen": {
+      "format": "Tengah, H1. RENCANA PELAKSANAAN PEMBELAJARAN (RPP) / MODUL AJAR, MATA PELAJARAN, FASE/KELAS"
+    },
+    "identitas": {
+      "tabel": {
+        "kolom": ["Field", ":", "Nilai/Isi"],
+        "baris": ["Nama Guru", "NIP", "Sekolah", "Mata Pelajaran", "Kelas", "Semester", "Kurikulum", "Materi Pokok", "Alokasi Waktu"],
+        "border": "Solid",
+        "header": "Tidak ada baris header tabel khusus"
+      }
+    },
+    "komponen_utama": {
+      "format": "Heading utama (A sampai G)."
+    },
+    "footer_pengesahan": {
+      "tabel": {
+        "kolom": ["Kepala Sekolah", "Guru"],
+        "border": "None",
+        "alignment": "Center"
+      }
+    }
+  }
+}
