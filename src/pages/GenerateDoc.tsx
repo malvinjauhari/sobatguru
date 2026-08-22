@@ -3,6 +3,7 @@ import { useSearchParams, useNavigate } from 'react-router';
 import { useAuth } from '../context/AuthContext';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../lib/firebase';
+import { generateDocument } from '../lib/gemini';
 import { FileText, Loader2, Download, AlertCircle, Save, CheckCircle } from 'lucide-react';
 import { Document, Packer, Paragraph, TextRun, HeadingLevel, Table, TableRow, TableCell, BorderStyle, WidthType, AlignmentType, convertInchesToTwip, ShadingType } from 'docx';
 
@@ -109,18 +110,12 @@ export default function GenerateDoc() {
         context_warisan: contextWarisan
       };
 
-      const response = await fetch('/api/generate', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || "Gagal generate dokumen, silakan coba lagi.");
-      }
-
-      const data = await response.json();
+      const data = await generateDocument(
+        payload.document_type,
+        payload.context_statis,
+        payload.context_dinamis,
+        payload.context_warisan
+      );
       setResult(data);
 
       // Save to Firestore
